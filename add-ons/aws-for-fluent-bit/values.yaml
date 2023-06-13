@@ -1,6 +1,6 @@
 aws-for-fluent-bit:
   serviceAccount:
-    create: true
+    create: false
 
   cloudWatch:
     logStreamPrefix: "dev-"    #  <-- Add this line
